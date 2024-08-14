@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Temperature conversion:</h1>
+        <form action="Submit">
+             <input type="number" id="text" value="0">
+            </form>
+      
+      <div class="top">
+        <input type="radio" id="c-f" name="converter">
+        <label for="c-f">Celcius to Faranhite</label>
+      </div>
+        <div class="bottom">
+            <input type="radio" id="f-c" name="converter">
+            <label for="c-f">Faranhite to Celcius</label>
+        </div>
+        <button id="submit">Submit</button>
+        <p id="answer">Select a unit</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
