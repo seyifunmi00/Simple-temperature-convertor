@@ -20,7 +20,7 @@ button.onclick = function(){
         answer.textContent = `${celsius} °C`;
     }
     else{
-        answer.textContent = "Please select a conversion type";
+        answer.textContent = "Please select a conversion type it is necessary";
     }
 }
 
